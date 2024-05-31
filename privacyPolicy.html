@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishmate</title>
+    <link rel="stylesheet" href="./build/css/style.css">
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="bg-white border-gray-200 sticky top-0 z-10">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="/"
+          class="space-x-3 rtl:space-x-reverse"
+          style="display: flex; align-items: center"
+        >
+          <img
+            src="./build/assets/logo/brand_logo.png"
+            class="h-8"
+            alt="VishMate Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap"
+          >
+            &nbsp;VishMate
+          </span>
+        </a>
+        <div
+          class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+        >
+          <button
+            type="button"
+            class="flex items-center text-white bg-primary-700 hover:bg-primary-500 focus:outline-none focus:ring-primary-800 font-medium rounded-lg text-sm px-4 py-2 text-center"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
+              class="w-6 md:w-5 hidden sm:block"
+              alt="play store logo"
+            />
+            &nbsp; Download Now
+          </button>
+          <button
+            onClick="buttonHandler()"
+            data-collapse-toggle="navbar-cta"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            aria-controls="navbar-cta"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-cta"
+        >
+          <ul
+            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white"
+          >
+            <li>
+              <a
+                href="/#home"
+                class="block py-2 px-3 md:p-0 text-white bg-primary-700 rounded md:bg-transparent md:text-primary-500"
+                aria-current="page"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#feature"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-500"
+              >
+                Features
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#design"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-500"
+              >
+                Designs
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#pricing"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-500"
+              >
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#testimonial"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-500"
+              >
+                Testimonial
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#contact"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-500"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar Start -->
+
+    <div class="container-section">
+      <h2>Privacy Policy:</h2>
+      <p>
+        At Vinsup Business Solutions (VBS), we prioritize the privacy and
+        security of our users' information. This Privacy Policy outlines the
+        types of information we collect, how we use it, and the measures we
+        take to safeguard it
+      </p>
+      <h4>Information You Provide to Us</h4>
+      <p>
+        When you engage with our services, such as Application Development,
+        Website Design, Data Migration, Customer Support, Digital Marketing,
+        and Branding, we may collect personal information necessary for
+        fulfilling your requests. This may include your name, contact details,
+        business information, and any other data relevant to the services you
+        seek
+      </p>
+      <p>
+        We assure you that any information you provide to us is treated with
+        utmost confidentiality. We use this information solely for the purpose
+        of delivering our services to you and improving our offerings. We do
+        not share your information with third parties unless it is necessary
+        for fulfilling your requests or as required by law.
+      </p>
+      <h4>Information about Your Friends</h4>
+      <p>
+        At VBS, we do not collect information about your friends unless it is
+        provided to us explicitly for referral or collaboration purposes. Any
+        such information is handled with care and used solely for the intended
+        purpose.
+      </p>
+      <h4>Precise Location Information and How to Opt Out</h4>
+      <p>
+        We do not collect precise location information unless it is necessary
+        for providing location-based services, such as targeted marketing
+        campaigns. If you prefer not to share your precise location, you can
+        opt out of location tracking through your device settings or by
+        contacting us directly.
+      </p>
+      <h4>General Information Disclosures</h4>
+      <p>
+        We may disclose general information about our users in aggregate form
+        for statistical analysis, marketing purposes, or to improve our
+        services. However, such disclosures do not include personally
+        identifiable information.
+      </p>
+      <h4>Payment Card Information</h4>
+      <p>
+        When processing payments for our services, we adhere to strict
+        security standards to protect your payment card information. We
+        utilize encrypted payment gateways and comply with industry
+        regulations to ensure the security of your financial data.
+      </p>
+      <h4>Analytics and Tailored Advertising</h4>
+      <p>
+        We may use analytics tools and cookies to gather information about
+        your interactions with our website or services. This helps us analyze
+        user behavior, improve our offerings, and provide tailored advertising
+        based on your preferences and browsing history.
+      </p>
+      <h4>Communication Choices</h4>
+      <p>
+        We respect your communication preferences and provide options for
+        opting in or out of marketing communications. You can manage your
+        communication preferences through your account settings or by
+        contacting our support team.
+      </p>
+      <h4>Reviewing, Changing, or Deleting Information</h4>
+      <p>
+        You have the right to review, update, or delete the personal
+        information we hold about you. You can request changes to your
+        information by contacting us directly. We will promptly accommodate
+        your requests in accordance with applicable laws and regulations.
+      </p>
+      <h4>Accessing & Correcting Your Personal Information</h4>
+      <p>
+        We are committed to ensuring the accuracy and completeness of your
+        personal information. If you believe that any information we hold
+        about you is incorrect or incomplete, please contact us to request
+        correction
+      </p>
+      <h4>Security: How We Protect Your Information</h4>
+      <p>
+        VBS reserves the right to remove or refuse to display any Content that
+        violates these Terms or is deemed objectionable or inappropriate at
+        our sole discretion. We may also suspend or terminate your access to
+        VBS services if you engage in prohibited activities or violate these
+        Terms.
+      </p>
+      <h4>Permissible Age</h4>
+      <p>
+        Our services are intended for individuals of legal age. We do not
+        knowingly collect personal information from minors without parental
+        consent. If we become aware of any such information being collected,
+        we will take steps to delete it promptly.
+      </p>
+      <h4>Third-Party Links and Services</h4>
+      <p>
+        Our website or services may contain links to third-party websites or
+        services. We are not responsible for the privacy practices or content
+        of these third parties. We encourage you to review the privacy
+        policies of any third-party sites or services before engaging with
+        them. We are committed to upholding the highest standards of privacy
+        and security in all aspects of our operations. If you have any
+        questions or concerns about our Privacy Policy, please contact us
+        using the provided contact information. Thank you for choosing Vinsup
+        Business Solutions (VBS)
+      </p>
+    </div>
+
+    <!-- Footer section -->
+    <div class="bg-primary-800">
+      <div class="max-w-2xl mx-auto text-white py-10">
+        <div class="text-center">
+          <h3 class="text-3xl mb-3"> Download our Digital Marketing Tool </h3>
+          <p> Explore Our Jaw-Dropping Templates. </p>
+          <div class="flex justify-center my-10">
+            <button class="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
+                class="w-7 md:w-8"
+                alt="play store logo"
+              />
+              <div class="text-left ml-3">
+                <p class="text-xs text-gray-200">Download on </p>
+                <p class="text-sm md:text-base"> Google Play Store </p>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+          <p class="order-2 md:order-1 mt-8 md:mt-0">
+            &copy; Vinsup Infotech Private Limited, 2024
+          </p>
+          <div class="order-1 md:order-2">
+            <span class="px-2">
+              <a href="termsAndConditions.html" class="hover:text-white">
+                Terms
+              </a>
+            </span>
+            <span class="px-2 border-l">
+              <a href="privacyPolicy.html" class="hover:text-white">
+                Privacy Policy
+              </a>
+            </span>
+            <span class="px-2 border-l">
+              <a href="cancelPolicy.html" class="hover:text-white">
+                Cancel Policy
+              </a>
+            </span>
+            <span class="px-2 border-l">
+              <a href="cookiePolicy.html" class="hover:text-white">
+                Cookie Policy
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer section -->
+    <script>
+      function buttonHandler() {
+        const button = document.getElementById('navbar-cta');
+        button.classList.toggle('hidden');
+      }
+    </script>
+  </body>
+</html>
